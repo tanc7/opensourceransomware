@@ -1,0 +1,11 @@
+name = "key-collector"  # Changed to match intended URL
+main = "src/index.js"
+compatibility_date = "2025-10-07"
+
+[[kv_namespaces]]
+binding = "SESSION_KV"
+id = "CUSTOM GENERATED SESSION KEY"  # SESSION_KEYS from creation
+
+# Remove [site] or build.upload if not serving assets
+# [site]
+# bucket = "./public"
