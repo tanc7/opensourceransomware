@@ -6,7 +6,7 @@ Custom Ransomware: Debugger Setup
 https://youtu.be/o9_Du447Tjc
 
 Custom Ransomware: Dynamic Analysis
-https://youtu.be/7luNHJdR8s4
+https://youtu.be/ELkjmUokO5Y
 
 # To compile <br>
 Open powershell as Administrator and run the following commands to install the build tools <br>
