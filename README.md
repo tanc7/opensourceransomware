@@ -15,7 +15,7 @@ clang-cl -m32 /TP /Od /MT /GS- /W0 ransomware_dll.c /c /Foransomware_dll.obj <br
 clang-cl -m32 ransomware_dll.obj advapi32.lib user32.lib shell32.lib shfolder.lib kernel32.lib bcrypt.lib wininet.lib shlwapi.lib iphlpapi.lib winhttp.lib /Feransomware_dll.dll /link /DLL /SUBSYSTEM:WINDOWS <br>
 
 
-#Disclaimer: <br>
+# Disclaimer: <br>
 
 The content presented here is intended solely for cybersecurity education, defensive research, red‑team simulation, and historical case‑study analysis. Nothing in this material is designed, intended, or authorized to support illegal, destructive, or disruptive activity of any kind. All demonstrations, proof‑of‑concepts, or simulations must be executed only inside a fully controlled, isolated lab environment owned by the practitioner.
 
